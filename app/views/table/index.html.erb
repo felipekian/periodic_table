@@ -1,17 +1,39 @@
 <div class="container">
+  <div class="row justify-content-center my-3">
+    <h1>Tabela Periódica</h1>
+  </div>
+</div>
+
+<div class="container-fluid">
   <div class="row">
     <ul>
-    <% @elements["order"].each do |element| %>
-      <li>
-        <%= @elements[element]["name"] %>
-        <%= @elements[element]["number"] %>-
-        <%= @elements[element]["period"] %>,
-        <%= @elements[element]["atomic_mass"] %>
-      </li>
-    <% end %>
+    <% for row in 1..10 %> 
+    <% for col in 1..18 %>
+        <% data = nil %>
+          <% @elements["order"].each do |element| %>
+            <% if @elements[element]['xpos'] == col && @elements[element]['ypos'] == row %>
+              <% data = true %>
+              <li class=<%= @elements[element]['category'].delete(" \t\r\n,-") %>>
+                <a href='/table/<%= @elements[element]["name"] %>'>
+                  <span><%= @elements[element]["number"] %></span>
+                  <span class='letter'><%= @elements[element]["symbol"] %></span>
+                  <span><%= @elements[element]["name"] %></span>
+                  <span><%= @elements[element]["atomic_mass"] %></span>
+                </a>
+              </li>
+            <% end %>            
+          <% end %>
+          <% if data != true %>                  
+            <li class='li-empty'></li>
+          <% end %>
+      <% end %>
+          
+      <% end %>
     </ul>
   </div>
 </div>
 
 
 
+      
+          
