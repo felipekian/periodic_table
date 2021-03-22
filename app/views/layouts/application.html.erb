@@ -12,15 +12,113 @@
 
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_pack_tag 'application' %>
+
+    <style>
+    
+      ul {
+
+      }
+
+      .letter {
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+
+      a:link{ 
+        text-decoration:none; 
+      } 
+
+      ul li {
+          display:inline-block;
+          box-sizing: border-box;
+          width: 95px;
+          height: 100px; 
+          border: solid 1px black;
+          overflow-x: hidden;
+          padding: 2px 2px;
+      }
+
+      ul li a span {
+          display: block;
+          font-size: .85rem;
+          color: #000; 
+      }
+
+      .noblegas {
+        background-color: #b48ead;
+      }
+
+      .diatomicnonmetal {
+        background-color: #8CED8C;
+      }
+
+      .alkalimetal {
+        background-color: #EACE5D;
+      }
+
+      .alkalineearthmetal {
+        background-color: #F1F165;
+      }
+
+      .metalloid {
+        background-color: #9EE5D4;
+      }
+
+      .polyatomicnonmetal {
+        background-color: #8CED8C;
+      }
+      
+      .post-transitionmetal {
+        background-color: #ACDFEC;
+      }
+
+      .posttransitionmetal {
+          background-color: #ACDFEC;
+      }
+
+      .transitionmetal {
+        background-color: #F4CDCD;
+      }
+
+      .unknownprobablytransitionmetal {
+        background-color: #EEEEEE;
+      }
+
+      .unknownprobablyposttransitionmetal {
+        background-color: #EEEEEE;
+      }
+
+      .unknownprobablymetalloid {
+        background-color: #EEEEEE;
+      }
+
+      .unknownpredictedtobenoblegas {
+        background-color: #EEEEEE;
+      }
+
+      .unknownbutpredictedtobeanalkalimetal {
+        background-color: #EEEEEE;
+      }
+
+      .lanthanide {
+         background-color: #F6D4A2;
+      }
+
+      .actinide {
+        background-color: #FACCDB;
+      }
+
+
+      .li-empty {
+        border: none;
+      }
+    </style>
   </head>
 
   <body>
-    <div class="container">
-      <div class="row justify-content-center">
-        <h1>Tabela Periódica</h1>
-      </div>
-    </div>
-
+    
     <%= yield %>
+
+    <script></script>
   </body>
 </html>
