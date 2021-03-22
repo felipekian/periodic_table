@@ -1,0 +1,70 @@
+<div class="container">
+  <div class="row justify-content-center my-3">
+    <h1>Element Details <%=  @element['name'] %></h1>
+  </div>
+
+  <div class='bg-light text-secondary px-5 py-3 rounded shadow-lg'>
+    
+
+    <div class='row'>
+      <a target='_blank' class='h1 col-3 text-secondary' href=<%= @element['source'] %>>
+        <span><%= @element['symbol'] %></span>
+      </a>
+      <span class='col-9 h4 row justify-content-end'><%= @element['name'] %></span>
+    </div>
+    
+
+    <div class='h6 text-justify '>
+      <%= @element['summary'] %>
+    </div>
+    
+    <hr/>
+
+    <div class='row'>
+      <div class='col-6'>
+        <p><span class='font-weight-bold'>Appearance:</span> <%= @element['appearance'] %> </p>
+        <p><span class='font-weight-bold'>Number:</span> <%= @element['number'] %> </p>
+        <p><span class='font-weight-bold'>Period:</span> <%= @element['period'] %> </p>
+        <p><span class='font-weight-bold'>atomic mass:</span> <%= @element['atomic_mass'] %> </p>
+        <p><span class='font-weight-bold'>category:</span> <%= @element['category'] %> </p>
+      </div>
+    
+      <div class='col-6'>
+        <p><span class='font-weight-bold'>density:</span> <%= @element['density'] %> </p>
+        <p><span class='font-weight-bold'>melt:</span> <%= @element['melt'] %> </p>
+        <p><span class='font-weight-bold'>molar heat:</span> <%= @element['molar_heat'] ||= 'not informed' %> </p>
+        <p><span class='font-weight-bold'>phase:</span> <%= @element['phase'] %> </p>
+        <p><span class='font-weight-bold'>shells:</span> <%= @element['shells'] %> </p>
+      </div>
+    </div>
+
+    <hr/>
+
+    <p><span class='font-weight-bold'>electron configuration:</span> <%= @element['electron_configuration'] %> </p>
+    <p><span class='font-weight-bold'>electron configuration semantic:</span> <%= @element['electron_configuration_semantic'] %> </p>
+    <p><span class='font-weight-bold'>electron affinity:</span> <%= @element['electron_affinity'] %> </p>
+    <p><span class='font-weight-bold'>electronegativity pauling:</span> <%= @element['electronegativity_pauling'] %> </p>
+    <p><span class='font-weight-bold'>ionization energies:</span> <%= @element['ionization_energies'] %> </p>
+    
+    <hr/>
+
+    <p><span class='font-weight-bold'>source:</span> <a target='_blank' href=<%= @element['source'] %>><%= @element['source'] %></a> </p>
+    <p><span class='font-weight-bold'>spectral img:</span> 
+    
+    <a target='_blank' href=<%= @element['spectral_img'] || '#'%> > 
+      <%= @element['spectral_img'] || 'not informated' %>
+    </a>
+    
+    </p>
+    
+    <p><span class='font-weight-bold'>named by:</span> <%= @element['named_by'] ||= 'not informed' %> </p>
+    <p><span class='font-weight-bold'>discovered by:</span> <%= @element['discovered_by'] %> </p>
+  
+    <div class="row justify-content-end">
+      <a href='/table' class='btn btn-success'>Return element selection</a>
+    </div>
+  </div>
+  
+</div>
+
+
