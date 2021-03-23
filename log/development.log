@@ -11045,3 +11045,613 @@ Processing by TableController#show as HTML
 Completed 200 OK in 5ms (Views: 2.4ms | Allocations: 6560)
 
 
+Started GET "/" for 10.138.0.100 at 2021-03-23 20:24:35 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1063)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2548)
+Completed 200 OK in 15ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 5389)
+
+
+Started GET "/table/" for 10.138.0.100 at 2021-03-23 20:24:41 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 8.0ms | Allocations: 1640)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 2775)
+Completed 200 OK in 29ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 8734)
+
+
+Started GET "/table/Hydrogen" for 10.138.0.100 at 2021-03-23 20:24:44 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Hydrogen"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 768)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1941)
+Completed 200 OK in 7ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 7385)
+
+
+Started GET "/table/Lithium" for 10.138.0.100 at 2021-03-23 20:24:46 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Lithium"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 83)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1254)
+Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 6565)
+
+
+Started GET "/table/Beryllium" for 10.138.0.100 at 2021-03-23 20:24:47 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Beryllium"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 85)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1257)
+Completed 200 OK in 6ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 6570)
+
+
+Started GET "/table/Potassium" for 10.138.0.100 at 2021-03-23 20:24:50 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Potassium"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1272)
+Completed 200 OK in 6ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 6582)
+
+
+Started GET "/table/Calcium" for 10.138.0.100 at 2021-03-23 20:24:52 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Calcium"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 100)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1272)
+Completed 200 OK in 6ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 6585)
+
+
+Started GET "/table/Strontium" for 10.138.0.100 at 2021-03-23 20:24:54 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Strontium"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 96)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1267)
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 6578)
+
+
+Started GET "/table/Barium" for 10.138.0.100 at 2021-03-23 20:24:56 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Barium"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 88)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1259)
+Completed 200 OK in 7ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 6569)
+
+
+Started GET "/table/Radium" for 10.138.0.100 at 2021-03-23 20:24:57 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Radium"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 89)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1260)
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 6570)
+
+
+Started GET "/table/Francium" for 10.138.0.100 at 2021-03-23 20:24:59 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Francium"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 87)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1258)
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 6568)
+
+
+Started GET "/table/Francium" for 10.138.0.100 at 2021-03-23 20:25:03 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Francium"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 87)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1258)
+Completed 200 OK in 7ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 6568)
+
+
+Started GET "/table/Ununennium" for 10.138.0.100 at 2021-03-23 20:25:06 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Ununennium"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 85)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1256)
+Completed 200 OK in 6ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 6566)
+
+
+Started GET "/table/Radium" for 10.138.0.100 at 2021-03-23 20:25:09 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Radium"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 89)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1260)
+Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 6570)
+
+
+Started GET "/table/Neodymium" for 10.138.0.100 at 2021-03-23 20:25:12 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Neodymium"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 90)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1261)
+Completed 200 OK in 5ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 6571)
+
+
+Started GET "/table/Promethium" for 10.138.0.100 at 2021-03-23 20:25:15 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Promethium"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 89)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1260)
+Completed 200 OK in 5ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 6690)
+
+
+Started GET "/table/" for 10.138.0.100 at 2021-03-23 20:25:22 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1242)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 2413)
+Completed 200 OK in 9ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 7708)
+
+
+Started GET "/table/" for 10.138.0.100 at 2021-03-23 20:25:24 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1242)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2413)
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 7708)
+
+
+Started GET "/table/Boron" for 10.138.0.100 at 2021-03-23 20:25:28 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Boron"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 85)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1256)
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 6566)
+
+
+Started GET "/table/Rhodium" for 10.138.0.100 at 2021-03-23 20:25:43 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Rhodium"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 88)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1259)
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 6569)
+
+
+Started GET "/table/Silver" for 10.138.0.100 at 2021-03-23 20:25:45 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Silver"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 87)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1258)
+Completed 200 OK in 6ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 6568)
+
+
+Started GET "/table/Tin" for 10.138.0.100 at 2021-03-23 20:25:47 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Tin"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1262)
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 6572)
+
+
+Started GET "/table/Bismuth" for 10.138.0.100 at 2021-03-23 20:25:50 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Bismuth"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 93)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1264)
+Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 6574)
+
+
+Started GET "/table/" for 10.138.0.100 at 2021-03-23 20:26:04 +0000
+Cannot render console from 10.4.11.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1242)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 2413)
+Completed 200 OK in 18ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 7710)
+
+
+Started GET "/" for 10.138.0.5 at 2021-03-23 20:37:27 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1063)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2548)
+Completed 200 OK in 21ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 5319)
+
+
+Started GET "/table/" for 10.138.0.5 at 2021-03-23 20:37:32 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1645)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 2780)
+Completed 200 OK in 11ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 8741)
+
+
+Started GET "/table/" for 10.138.0.5 at 2021-03-23 20:38:09 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1242)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 2414)
+Completed 200 OK in 9ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 7712)
+
+
+Started GET "/table/" for 10.138.0.5 at 2021-03-23 20:38:46 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1628)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 3079)
+Completed 200 OK in 11ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 9116)
+
+
+Started GET "/table/" for 10.138.0.27 at 2021-03-23 20:38:50 +0000
+Cannot render console from 10.4.0.207! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as */*
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1242)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2428)
+Completed 200 OK in 10ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 7828)
+
+
+Started GET "/table/" for 10.138.0.5 at 2021-03-23 20:39:04 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1628)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 3078)
+Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 9110)
+
+
+Started GET "/table/" for 10.138.0.5 at 2021-03-23 20:39:09 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 1242)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 2413)
+Completed 200 OK in 11ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 7709)
+
+
+Started GET "/table/" for 10.138.0.5 at 2021-03-23 20:39:50 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1627)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 3083)
+Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 9119)
+
+
+Started GET "/table/" for 10.138.0.5 at 2021-03-23 20:39:52 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1242)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2413)
+Completed 200 OK in 10ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 7845)
+
+
+Started GET "/table/" for 10.138.0.5 at 2021-03-23 20:40:22 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1632)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 3089)
+Completed 200 OK in 11ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 9126)
+
+
+Started GET "/table/" for 10.138.0.5 at 2021-03-23 20:40:24 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1242)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 2413)
+Completed 200 OK in 9ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 7709)
+
+
+Started GET "/table/" for 10.138.0.5 at 2021-03-23 20:41:03 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1628)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 3087)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 9119)
+
+
+Started GET "/table/" for 10.138.0.5 at 2021-03-23 20:41:23 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1627)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 3086)
+Completed 200 OK in 11ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 9118)
+
+
+Started GET "/table/" for 10.138.0.5 at 2021-03-23 20:41:31 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1242)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2413)
+Completed 200 OK in 9ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 7709)
+
+
+Started GET "/table/" for 10.138.0.5 at 2021-03-23 20:41:51 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1632)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3092)
+Completed 200 OK in 11ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 9265)
+
+
+Started GET "/table/" for 10.138.0.5 at 2021-03-23 20:41:54 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1242)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 2413)
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 7709)
+
+
+Started GET "/table/" for 10.138.0.5 at 2021-03-23 20:42:06 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1627)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 3087)
+Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 9119)
+
+
+Started GET "/table/" for 10.138.0.5 at 2021-03-23 20:42:15 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1627)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3087)
+Completed 200 OK in 11ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 9119)
+
+
+Started GET "/table/" for 10.138.0.5 at 2021-03-23 20:42:17 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 7.7ms | Allocations: 1242)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 2413)
+Completed 200 OK in 14ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 7709)
+
+
+Started GET "/table/" for 10.138.0.5 at 2021-03-23 20:42:58 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1242)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 2413)
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 7708)
+
+
+Started GET "/table/Zinc" for 10.138.0.5 at 2021-03-23 20:43:20 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Zinc"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 12.3ms | Allocations: 794)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 1966)
+Completed 200 OK in 18ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 7407)
+
+
+Started GET "/table" for 10.138.0.5 at 2021-03-23 20:43:35 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 1242)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 2413)
+Completed 200 OK in 15ms (Views: 10.6ms | Allocations: 7715)
+
+
+Started GET "/table/Thallium" for 10.138.0.5 at 2021-03-23 20:43:37 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Thallium"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 89)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1260)
+Completed 200 OK in 6ms (Views: 2.0ms | Allocations: 6570)
+
+
+Started GET "/table/Indium" for 10.138.0.5 at 2021-03-23 20:43:39 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Indium"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 88)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1259)
+Completed 200 OK in 5ms (Views: 2.0ms | Allocations: 6569)
+
+
+Started GET "/table/Tin" for 10.138.0.5 at 2021-03-23 20:43:41 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Tin"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1262)
+Completed 200 OK in 4ms (Views: 2.0ms | Allocations: 6572)
+
+
+Started GET "/table" for 10.138.0.5 at 2021-03-23 20:44:04 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1632)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 3096)
+Completed 200 OK in 10ms (Views: 7.3ms | Allocations: 9133)
+
+
+Started GET "/table/Silicon" for 10.138.0.5 at 2021-03-23 20:44:06 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Silicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 754)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1926)
+Completed 200 OK in 6ms (Views: 2.8ms | Allocations: 7366)
+
+
+Started GET "/table/Phosphorus" for 10.138.0.5 at 2021-03-23 20:44:09 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Phosphorus"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 96)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1267)
+Completed 200 OK in 5ms (Views: 1.9ms | Allocations: 6578)
+
+
+Started GET "/table/Lead" for 10.138.0.5 at 2021-03-23 20:45:13 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Lead"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1262)
+Completed 200 OK in 7ms (Views: 2.9ms | Allocations: 6572)
+
+
+Started GET "/table" for 10.138.0.5 at 2021-03-23 20:45:39 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1242)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 2413)
+Completed 200 OK in 10ms (Views: 6.7ms | Allocations: 7716)
+
+
+Started GET "/table/Berkelium" for 10.138.0.5 at 2021-03-23 20:45:41 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Berkelium"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 89)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1260)
+Completed 200 OK in 4ms (Views: 1.9ms | Allocations: 6570)
+
+
+Started GET "/table" for 10.138.0.5 at 2021-03-23 20:45:44 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1242)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2413)
+Completed 200 OK in 9ms (Views: 6.1ms | Allocations: 7714)
+
+
+Started GET "/table/Hydrogen" for 10.138.0.5 at 2021-03-23 20:45:45 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#show as HTML
+  Parameters: {"name"=>"Hydrogen"}
+  Rendering layout layouts/application.html.erb
+  Rendering table/show.html.erb within layouts/application
+  Rendered table/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1250)
+Completed 200 OK in 5ms (Views: 2.0ms | Allocations: 6560)
+
+
+Started GET "/table" for 10.138.0.5 at 2021-03-23 20:45:47 +0000
+Cannot render console from 10.4.6.153! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TableController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering table/index.html.erb within layouts/application
+  Rendered table/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1242)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2413)
+Completed 200 OK in 9ms (Views: 5.9ms | Allocations: 7714)
+
+
